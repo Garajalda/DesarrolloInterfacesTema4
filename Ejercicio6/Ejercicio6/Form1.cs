@@ -23,7 +23,7 @@ namespace Ejercicio6
             pantalla.Text += "*************************\n";
 
 
-            int contadorLimite = 3;
+            int contadorLimite = 2;
             //formulario 2
             Form2 f = new Form2();
             bool contrasenaAceptada = false;
@@ -188,7 +188,7 @@ namespace Ejercicio6
                     pantalla.Text = "";
                 break;
                 case "Separador":
-                    pantalla.Text += "\n";
+                    pantalla.Text += "\r\n";
                 break;
                 case "Salir":
                     this.Close();
